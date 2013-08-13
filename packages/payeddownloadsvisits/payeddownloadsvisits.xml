@@ -4,10 +4,10 @@
         <name>plg_payeddownloadsvisits</name>
         <author>themhz</author>
         <creationDate>June 18th, 2012</creationDate>
-        <copyright>agorasite.gr</copyright>
+        <copyright>codecraft.gr</copyright>
         <license>GNU General Public License</license>
         <authorEmail>info@agorasite.gr</authorEmail>
-        <authorUrl>http://www.agorasite.gr</authorUrl>
+        <authorUrl>http://www.codecraft.gr</authorUrl>
         <version>1.0</version>
         <description>Simple visit loger plugin.</description>
         <files>
