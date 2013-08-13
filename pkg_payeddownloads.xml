@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="1.6">
+ <name>PayedDownload Package</name>
+ <author>theMhz</author>
+ <creationDate>Oct 2012</creationDate>
+<copyright>GNU General Public License</copyright>
+ <packagename>payeddownloads</packagename>
+ <version>1.0.0</version>
+ <url>http://www.agorasite.gr/</url>
+ <packager>agorasite.gr</packager>
+ <packagerurl>http://www.agorasite.gr/</packagerurl>
+ <description>This is a plugin for virtuemart shop in order to enable payed downloads and it was successfully installed. Don't forget to enable the plugins plg_payeddownloadsvisits in order to monitor your visits and downloads and payeddownloads in order to make the system work.</description>
+ <files folder="packages">
+   <file type="plugin" id="payeddownloadsvisits" group="system">payeddownloadsvisits.zip</file>
+   <file type="plugin" id="payeddownloads" group="vmcustom">payeddownloads.zip</file>
+ </files>
+ </extension>

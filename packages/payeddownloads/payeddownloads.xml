@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="vmcustom">
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+        <name>payeddownloads</name>
+        <author>themhz</author>
+        <creationDate>June 18th, 2012</creationDate>
+        <copyright>agorasite.gr</copyright>
+        <license>GNU General Public License</license>
+        <authorEmail>themhz@agorasite.gr</authorEmail>
+        <authorUrl>http://www.agorasite.gr</authorUrl>
+        <version>1.0</version>
+        <description>Simple free Plugin to enable payed downloads for virtuemart.</description>
+	<scriptfile>payeddownloadsInstallerScript.php</scriptfile>	
+        <files>
+		<filename plugin="payeddownloads">payeddownloads.php</filename>
+                <filename plugin="payeddownloads">index.html</filename>
+		<folder plugin="payeddownloads">components</folder>
+		<folder plugin="payeddownloads">administrator</folder>
+		<folder plugin="payeddownloads">media</folder>
+		<folder plugin="payeddownloads">sql</folder>
+        </files>	      	    
+	<install>
+		<sql>
+		    <file driver="mysql" charset="utf8">sql/install_data.sql</file>
+		</sql>
+    	</install>
+	<uninstall >
+		<sql>
+		    <file driver="mysql" charset="utf8">sql/uninstall_data.sql</file>
+		</sql>
+	</uninstall>
+</extension>
