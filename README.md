@@ -1,24 +1,35 @@
-Paid-Downloads-for-virtuemart
+Joomla! Paid-Downloads-for-virtuemart
 =============================
 
-A package that enables paid download for virtuemart versions in joomla 2.5
-Tested with virtuemart versions 
-com_virtuemart.2.0.22a
-com_virtuemart.2.0.22a
+A package that enables paid downloads for electronic goods for virtuemart and joomla 2.5
+
+Requirements
+============================= 
+Virtuemart 2.0.22a or later
+Joomla 2.5
+
+Tested with
+=============================
+Virtuemart.2.0.12f
+Virtuemart 2.0.22a
+Joomla 2.5
 
 Description
 =============================
-This is a simple package for virtuemart. You may add paid downloads and secure them in the database via blob fields. 
-Those links are protected and unique for each visitor that purchases a file from your server. Some reporting is available to. 
+This is a package for virtuemart 2.0.22a or later versions that enable's paid downloads for electronic goods to be purchased from your website. 
+This plugin enables you to upload files such as zip,png and other to your joomla website. Those files are stored in the database
+as blob. Links are protected and unique for each visitor that purchases a file from your server. 
+
 You can view your visitors and the downloads that happen.When a visitor purchases a product, a link will be activated 
-for 30 days and an e-mail will be sent to the purchaser. How to use payed download manager for virtuemart 2.5
+for 30 days and an e-mail will be sent to the purchaser.
+
+
+Usage instructions
+=============================
 Install the package on your joomla system the ordinary way and you are done. Now you need to add a product in virtuemart 
-if you don't already have one. Then go to "Payed Downloads" on the left of the virtuemart menu and click "add new file".
-A popup apears, select the product you wish to add the payed download, and browse the zip file you need to add and click upload.
+if you don't already have one. Then go to "Paid Downloads" on the left of the virtuemart menu and click "add new file".
+A popup apears, select the product you wish to add the paid download, and browse the zip file you need to add and click upload.
 The file will be uploaded in the database of your server in a blob field. You are done.
+when a visitor purchases the product you created, a link will be activated and an e-mail will be sent to the purchaser.
 
-when a visitor purchases a product, a link will be activated and an e-mail will be sent to the purchaser.
-
-This link will be valid over 30 days by default. You can change this from reporting.
-
-Notice that this is a beta version
+Notice that this is a beta version. Please e-mail me at themhz@codecraft.gr if you have any comments or bugs to report.
