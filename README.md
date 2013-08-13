@@ -10,9 +10,11 @@ Joomla 2.5
 
 Tested with
 =============================
-Virtuemart.2.0.12f
-Virtuemart 2.0.22a
-Joomla 2.5
+Virtuemart.2.0.12f /r/n
+Virtuemart 2.0.22a /r/n
+Joomla 2.5 /r/n
+PHP 5.3.10 /r/n
+mysql  Ver 14.14 Distrib 5.5.32 /r/n
 
 Description
 =============================
