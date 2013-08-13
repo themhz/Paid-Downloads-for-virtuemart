@@ -19,8 +19,8 @@ mysql  Ver 14.14 Distrib 5.5.32 /r/n
 Description
 =============================
 This is a package for virtuemart 2.0.22a or later versions that enable's paid downloads for electronic goods to be purchased from your website. 
-This plugin enables you to upload files such as zip,png and other to your joomla website. Those files are stored in the database
-as blob. Links are protected and unique for each visitor that purchases a file from your server. 
+This plugin enables you to upload files such as zip to your joomla website. Those files are stored in the database as blob. Unique links are 
+created automatically for each file you upload and is protected for each visitor that purchases a file from your server. 
 
 You can view your visitors and the downloads that happen.When a visitor purchases a product, a link will be activated 
 for 30 days and an e-mail will be sent to the purchaser.
